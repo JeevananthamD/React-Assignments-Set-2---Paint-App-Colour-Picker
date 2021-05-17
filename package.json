@@ -2,11 +2,14 @@
   "name": "react-boilerplate",
   "version": "1.0.0",
   "description": "",
+  "homepage": " https://jeevananthamd.github.io/React-Assignments-Set-2---Paint-App-Colour-Picker",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "start": "webpack-dev-server --mode development --watch --open --hot",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
